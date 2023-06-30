@@ -9,7 +9,7 @@
 # Run the React application from react-websocket-app folder
   npm install
   npm start
-  npm test --> for testing 
+  npm test --> for testing then select -a for running all tests
 
 
 

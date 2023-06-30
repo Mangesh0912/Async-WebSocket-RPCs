@@ -48,7 +48,6 @@ function StockComponent() {
     };
 
     ws.onclose = (err) => {
-         console.log("on close!!")
          if(connectionStatus !== 'error') {
              setConnectionStatus("closed");
              setErrorMessage("Websocket closed, Please try again after some time")
